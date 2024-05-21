@@ -1,4 +1,4 @@
-module DCR-final
+module distributed-dcr
 
 go 1.22.1
 
