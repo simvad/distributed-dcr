@@ -13,7 +13,6 @@ clean:
 	$(GOCLEAN)
 	rm -rf bin/*
 	
-
 run:
 	$(GOBUILD) -o bin/server cmd/server/main.go
 	$(GOBUILD) -o bin/cli cmd/cli/main.go
