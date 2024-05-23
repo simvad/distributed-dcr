@@ -1,0 +1,51 @@
+<constraints>
+  <conditions>
+    <condition sourceId="Activity0" targetId="Activity1" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity0" targetId="Activity2" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity2" targetId="Activity4" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity1" targetId="Activity4Copy" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity3Copy" targetId="Activity7Copy" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity4" targetId="Activity7" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity7Copy" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+    <condition sourceId="Activity7" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+  </conditions>
+  <responses>
+    <response sourceId="Activity0" targetId="Activity1" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity0" targetId="Activity2" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity2" targetId="Activity3Copy" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity1" targetId="Activity3" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity3" targetId="Activity4" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity3Copy" targetId="Activity4Copy" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity3Copy" targetId="Activity7Copy" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity4" targetId="Activity7" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity7Copy" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+    <response sourceId="Activity7" targetId="Activi ty8" filterLevel="1" description="" time="" groups="" />
+  </responses>
+  <coresponses />
+  <includes>
+    <include sourceId="Activity1" targetId="Activity3" filterLevel="1" description="" time="" groups="" expressionId="2" link="Activity1--include--Activity3" />
+    <include sourceId="Activity2" targetId="Activity3Copy" filterLevel="1" description="" time="" groups="" expressionId="3" link="Activity2--include--Activity3Copy" />
+    <include sourceId="Activity3Copy" targetId="Activity7Copy" filterLevel="1" description="" time="" groups="" />
+    <include sourceId="Activity4" targetId="Activity7" filterLevel="1" description="" time="" groups="" />
+    <include sourceId="Activity7Copy" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+    <include sourceId="Activity7" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+  </includes>
+  <excludes>
+    <exclude sourceId="Activity1" targetId="Activity3" filterLevel="1" description="" time="" groups="" expressionId="0" link="Activity1--include--Activity3" />
+    <exclude sourceId="Activity2" targetId="Activity3Copy" filterLevel="1" description="" time="" groups="" expressionId="1" link="Activity2--include--Activity3Copy" />
+    <exclude sourceId="Activity1" targetId="Activity1" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity0" targetId="Activity0" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity2" targetId="Activity2" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity3Copy" targetId="Activity3Copy" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity4Copy" targetId="Activity4Copy" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity4" targetId="Activity4" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity3" targetId="Activity3" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity7" targetId="Activity7" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity7Copy" targetId="Activity7Copy" filterLevel="1" description="" time="" groups="" />
+    <exclude sourceId="Activity8" targetId="Activity8" filterLevel="1" description="" time="" groups="" />
+  </excludes>
+  <milestones />
+  <spawns />
+  <templateSpawns />
+  <updates />
+</constraints>
